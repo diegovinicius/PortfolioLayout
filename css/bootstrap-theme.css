@@ -1094,6 +1094,8 @@ body {
   line-height: 1.42857143;
   color: #3e3f3a;
   background-color: #ffffff;
+    border-top: solid #3e3f3a;
+    background: url(../images/background.png);
 }
 input,
 button,
@@ -1407,8 +1409,17 @@ a.bg-danger:hover {
 }
 .page-header {
   padding-bottom: 9px;
-  margin: 40px 0 20px;
-  border-bottom: 1px solid #f8f5f0;
+  margin: 0;
+  border-bottom: 1px solid #3e3f3a;
+}
+.page-header h1,
+.page-header h2,
+.page-header h3,
+.page-header h4,
+.page-header h5,
+.page-header h6{
+    margin: 0;
+    font-weight: 400;
 }
 ul,
 ol {
@@ -5542,18 +5553,18 @@ a.list-group-item-danger.active:focus {
 }
 .panel-default > .panel-heading {
   color: #3e3f3a;
-  background-color: #f8f5f0;
-  border-color: #dfd7ca;
+  background-color: #3e3f3a;
+  border-color: #3e3f3a;
 }
 .panel-default > .panel-heading + .panel-collapse > .panel-body {
-  border-top-color: #dfd7ca;
+  border-top-color: #3e3f3a;
 }
 .panel-default > .panel-heading .badge {
   color: #f8f5f0;
   background-color: #3e3f3a;
 }
 .panel-default > .panel-footer + .panel-collapse > .panel-body {
-  border-bottom-color: #dfd7ca;
+  border-bottom-color: #3e3f3a;
 }
 .panel-primary {
   border-color: #325d88;

@@ -1,12 +1,5 @@
-.site-header {
-    height: 200px;
-}
-
-body {
-    background: url(../images/background.png);
-}
-
 /* FIXES */
+/* Navbar + Breadcrumb */
 .navbar {
     margin-bottom: 0;
 }
@@ -14,4 +7,15 @@ body {
     border-radius: 0 0 4px 4px;
     padding-top: 10px;
     margin-top: -4px;
+}
+
+.site-footer {
+    min-height: 30px;
+    font-size: 80%;
+    font-weight: 600;
+    color: #9b9b9a;
+    text-align: center;
+}
+.site-conteudo {
+    min-height: 400px;
 }
